@@ -3,15 +3,15 @@
 import PackageDescription
 
 let package = Package(
-    name: "SwiftyTimer",
+    name: "Up2Dater",
     platforms: [.iOS(.v9), .tvOS(.v9)],
     products: [
-        .library(name: "SwiftyTimer", targets: ["SwiftyTimer"])
+        .library(name: "Up2Dater", targets: ["Up2Dater"])
     ],
     targets: [
       .target(
-        name: "SwiftyTimer",
-        path: "Sources"
+        name: "Up2Dater",
+        path: "Up2Dater"
       )
     ]
 )
